@@ -1,0 +1,38 @@
+body {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body .background {
+    background-image: url("/img/main-background.jpg");
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: .4;
+}
+
+.container {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+
+.left-side {
+    background-image: url("/img/left-side-background.png");
+    background-position: 20%;
+    flex-grow: 1;
+}
+
+.main-content {
+    background-color: red;
+    flex-grow: 3;
+}
+
+.logo {
+    margin-top: 35%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}

@@ -1,6 +1,13 @@
-body {
-    margin-top: 0;
-    padding-top: 0;
+@font-face {
+    font-family: logo-font;
+    src: url("/fonts/aAsianNinja.ttf");
+}
+
+/* resets */
+body,
+p {
+    margin: 0;
+    padding: 0;
 }
 
 body .background {
@@ -23,16 +30,57 @@ body .background {
     background-image: url("/img/left-side-background.png");
     background-position: 20%;
     flex-grow: 1;
+    min-width: 220px;
 }
 
-.main-content {
-    background-color: red;
-    flex-grow: 3;
+.left-side-container {
+    margin-top: 35%;
+    width: 100%;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+}
+
+.left-side-container img {
+    height: 100px;
 }
 
 .logo {
-    margin-top: 35%;
-    width: 100%;
-    background-color: black;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: logo-font, sans-serif;
+    font-size: 1.3rem;
+}
+
+.logo div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    background-color: white;
+    flex-grow: 3;
+    font-family: sans-serif;
+    line-height: 1.3rem;
+}
+
+.main-content .head {
+    padding: 30px;
+    background-color: rgb(229, 226, 226);
+}
+
+.head p + p {
+    margin-top: 15px;
+}
+
+.form-container {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+} 
+
+label , input {
+    display: flex;
+    flex-direction: column;
 }

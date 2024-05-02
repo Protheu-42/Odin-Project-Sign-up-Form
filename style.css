@@ -2,6 +2,11 @@
     --main-color: #fd8317;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
 /* resets */
 body,
 p {
@@ -92,7 +97,7 @@ fieldset{
 label , input {
     display: flex;
     flex-direction: column;
-    font-family: inherit;
+    font-family: Roboto;
 }
 
 .row {

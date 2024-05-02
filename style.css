@@ -37,8 +37,8 @@ body .background {
 }
 
 .left-side {
-    background-image: url("/img/left-side-background.png");
-    background-position: 20%;
+    background-image: url("/img/left-side-background-1.jpg");
+    background-position: 40%;
     flex-grow: 1;
     min-width: 220px;
 }

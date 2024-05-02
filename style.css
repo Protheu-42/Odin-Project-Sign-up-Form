@@ -42,6 +42,7 @@ body .background {
 
 .left-side {
     background-image: url("/img/left-side-background-1.jpg");
+    background-repeat: no-repeat;
     background-position: 40%;
     flex-grow: 1;
     min-width: 220px;
@@ -80,6 +81,8 @@ body .background {
 
 .main-content .head {
     padding: 30px;
+    max-width: 70ch;
+    min-width: 45ch;
 }
 
 .head p + p {
@@ -98,6 +101,10 @@ label , input {
     display: flex;
     flex-direction: column;
     font-family: Roboto;
+}
+
+input {
+    border: 1px solid grey;
 }
 
 .row {

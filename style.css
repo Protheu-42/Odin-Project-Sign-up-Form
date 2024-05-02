@@ -102,3 +102,13 @@ label , input {
     margin-bottom: 15px;
     font-size: 0.8rem;
 }
+
+.button-section > button,
+.button-section > p {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+button {
+    padding: 10px 60px;
+}

@@ -3,6 +3,10 @@
     src: url("/fonts/aAsianNinja.ttf");
 }
 
+:root {
+    --main-color: #fd8317;
+}
+
 /* resets */
 body,
 p {
@@ -109,6 +113,22 @@ label , input {
     margin-left: 30px;
 }
 
+
 button {
     padding: 10px 60px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+a:visited {
+    color: blue;
 }

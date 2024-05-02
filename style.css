@@ -139,3 +139,41 @@ a {
 a:visited {
     color: blue;
 }
+
+/* USABILITY AND VALIDATION */
+input:focus,
+input:hover {
+    background-color: #fd821736;
+}
+
+button:hover {
+    cursor: grab;
+    background-color: #df6800;
+}
+
+button:active {
+    
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:invalid + span::before {
+    position: relative;
+    content: "⚠️" ;
+    color: red;
+    font-size: 1rem;
+    top: -19px;
+    left: 185px;
+}
+
+input[type="tel"]:not(:placeholder-shown) +span::after {
+    content: "Only numbers";
+    position: relative;
+    top: -40px;
+    left: 85px;
+    font-size: 0.7rem;
+    color: var(--main-color);
+    font-weight: bold;
+}

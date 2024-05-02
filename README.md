@@ -10,3 +10,5 @@ left-side-background - <a href="https://pt.vecteezy.com/vetor-gratis/sombra">Som
 main-background - https://wallpaperset.com/background-anime#google_vignette
 
 aAsianNinja (font) - https://wepfont.com/asian-ninja/
+
+error.png - https://www.pngegg.com/en/png-ecgar

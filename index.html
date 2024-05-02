@@ -38,25 +38,30 @@
                         <div>
                             <label for="email">EMAIL</label>
                             <input type="email" name="email" id="email">
+                            <span></span>
                         </div>
                         <div>
                             <label for="phoneNumber">PHONE NUMBER</label>
-                            <input type="tel" name="phoneNumber" id="phoneNumber">
+                            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Only Numbers" pattern="/\d/">
+                            <span></span>
                         </div>
                     </div>
                     <div class="row">
                         <div>
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%&*-=\/?:;><]).{6,12}$">
+                            <span></span>
                         </div>
                         <div>
                             <label for="cPassword">CONFIRM PASSWORD</label>
                             <input type="password" name="cPassword" id="cPassword">
+                            <span></span>
                         </div>
                     </div>
+                    <span>6 to 10 characters with numbers, one uppercase letter, one lowercase letter, one special character.</span>
                 </fieldset>
                 <div class="button-section">
-                    <button type="submit">Create Account</button>
+                    <button type="button">Create Account</button>
                     <p>Already have a Account? <a href="">Log in</a></p>
                 </div>
             </form>

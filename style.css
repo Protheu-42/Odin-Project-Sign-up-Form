@@ -155,11 +155,13 @@ button:active {
     border: 2px solid black;
 }
 
-input:invalid {
+input:invalid,
+.invalid {
     border: 1px solid red;
 }
 
-input:invalid + span::before {
+input:invalid + span::before,
+.invalid + span::before {
     position: relative;
     content: "⚠️" ;
     color: red;

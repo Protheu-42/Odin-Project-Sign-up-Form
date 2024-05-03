@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(/fonts/Roboto-Regular.ttf);
+    src: url(fonts/Roboto-Regular.ttf);
 }
 
 /* resets */
@@ -25,7 +25,7 @@ fieldset {
 /* resets */
 
 body .background {
-    background-image: url("/img/main-background.jpg");
+    background-image: url("img/main-background.jpg");
     position: absolute;
     z-index: -1;
     height: 100%;
@@ -41,7 +41,7 @@ body .background {
 }
 
 .left-side {
-    background-image: url("/img/left-side-background-1.jpg");
+    background-image: url("img/left-side-background-1.jpg");
     background-repeat: no-repeat;
     background-position: 40%;
     flex-grow: 1;

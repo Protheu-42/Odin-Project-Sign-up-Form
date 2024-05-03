@@ -114,6 +114,10 @@ input {
     font-size: 0.8rem;
 }
 
+.password-feedback {
+    font-size: 0.9rem;
+}
+
 .button-section > button,
 .button-section > p {
     margin-top: 30px;
@@ -178,4 +182,9 @@ input[type="tel"]:not(:placeholder-shown) +span::after {
     font-size: 0.7rem;
     color: var(--main-color);
     font-weight: bold;
+}
+
+/* only for javascript use */
+.valid {
+    color: green;
 }
